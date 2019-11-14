@@ -115,10 +115,10 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. If no dot notation is used, this reffers to the window object
+  2. If dot notation is use, this refers to the object left of the dot
+  3. When constructing an oject, this refers to that specific object
+  4. To explicitly define this, we can use the call or apply method
 */
 
 
